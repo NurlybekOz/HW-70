@@ -1,9 +1,9 @@
 import {useNavigate} from "react-router-dom";
 import {useAppDispatch, useAppSelector} from "../../app/hooks.ts";
-import {selectContactsLoading} from "../../../store/Contacts/contactsSlice.ts";
+import {selectContactsLoading} from "../../store/Contacts/contactsSlice.ts";
 import ContactForm from "../../components/ContactForm/ContactForm.tsx";
 import {IContactForm} from "../../types";
-import {createContact, fetchContacts} from "../../../store/Contacts/contactsThunks.ts";
+import {createContact, fetchContacts} from "../../store/Contacts/contactsThunks.ts";
 
 
 const NewContact = () => {

@@ -1,8 +1,8 @@
 import {useNavigate, useParams} from "react-router-dom";
 import {useAppDispatch, useAppSelector} from "../../app/hooks.ts";
-import {selectContactsLoading} from "../../../store/Contacts/contactsSlice.ts";
+import {selectContactsLoading} from "../../store/Contacts/contactsSlice.ts";
 import {IContactForm} from "../../types";
-import {updateContact} from "../../../store/Contacts/contactsThunks.ts";
+import {updateContact} from "../../store/Contacts/contactsThunks.ts";
 import ContactForm from "../../components/ContactForm/ContactForm.tsx";
 
 

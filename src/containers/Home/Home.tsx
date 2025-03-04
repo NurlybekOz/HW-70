@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useAppDispatch, useAppSelector } from "../../app/hooks.ts";
-import { selectContacts, selectContactsLoading } from "../../../store/Contacts/contactsSlice.ts";
-import {fetchContacts, deleteContact, fetchContactInfo} from "../../../store/Contacts/contactsThunks.ts";
+import { selectContacts, selectContactsLoading } from "../../store/Contacts/contactsSlice.ts";
+import {fetchContacts, deleteContact, fetchContactInfo} from "../../store/Contacts/contactsThunks.ts";
 import Loader from "../../UI/Loader/Loader.tsx";
 import Modal from "../../UI/Modal/Modal.tsx";
 

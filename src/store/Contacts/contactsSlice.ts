@@ -1,7 +1,7 @@
 import {createSlice} from "@reduxjs/toolkit";
 import {createContact, deleteContact, fetchContactInfo, fetchContacts, updateContact} from "./contactsThunks.ts";
-import { RootState } from "../../src/app/store.ts";
-import {IContact} from "../../src/types";
+import { RootState } from "../../app/store.ts";
+import {IContact} from "../../types";
 
 
 interface ContactsState {
